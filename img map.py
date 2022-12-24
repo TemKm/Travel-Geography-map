@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('map/usa2.jpg')                             # 이미지 불러오기
+img = cv2.imread('map/spain.jpg')                             # 이미지 불러오기
 imgray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)                                  # 이미지 그레이 전환
 
 ret, thresh = cv2.threshold(imgray, 120, 255, 0)                                # 흑과 백으로 임계(threshold) 분할
