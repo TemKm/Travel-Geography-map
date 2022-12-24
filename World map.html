@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet">
+	<title> 여행지리 C반 여행지 소개 지도 </title>
+
+
+
+    <!-- 이미지 맵의 좌표 변경을 저지(100% 상태 기준 좌표 설정) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.js"></script>
+    <script>
+        $(function() {
+        $('img[usemap]').rwdImageMaps();
+    });
+    </script>
+
+  </head>
+  <body>
+    <div>
+	<img src="map\colored.png" alt="이미지를 불러오는데 실패했습니다..." usemap="#세계">
+
+	<map name="세계">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="아랍에미리트">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="핀란드">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="아이슬란드">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="스위스">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="미국">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="그리스">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="브라질">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.miricanvas.com/v/11eqbb1" title="캐나다">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="일본">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="스페인">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="이집트">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="노르웨이">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="네덜란드">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="스웨덴">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="영국">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="싱가포르">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.naver.com/" title="대한민국">
+      <area shape="poly" coords="" alt="이동합니다" href="https://www.miricanvas.com/v/11hgx8d" title="인도네시아">
+
+    </map>
+
+
+
+
+
+  </body>
+</html>
